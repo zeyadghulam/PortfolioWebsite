@@ -1,5 +1,6 @@
 import React from "react";
 import Typical from "react-typical";
+import './Profile.css';
 
 export default function Profile() {
   return (
@@ -70,7 +71,9 @@ export default function Profile() {
           </div>
         </div>
         <div className="profile-picture">
-          <div className="profile-picture-background"></div>
+          <div className="profile-picture-background">
+
+          </div>
         </div>
       </div>
     </div>
